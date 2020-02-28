@@ -1,0 +1,30 @@
+.container {
+  padding: 15px 30px;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #6766a7;
+}
+
+.moviesList {
+  padding: 0;
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.movieIcon {
+  margin-right: 10px;
+  color: #f5963d;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #212121;
+}
+
+.movieLink:visited {
+  color: #212121;
+}

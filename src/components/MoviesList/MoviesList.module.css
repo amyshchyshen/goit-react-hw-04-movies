@@ -1,0 +1,17 @@
+.moviesList {
+  padding: 0;
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.movieIcon {
+  margin-right: 10px;
+  color: #f5963d;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #212121;
+}

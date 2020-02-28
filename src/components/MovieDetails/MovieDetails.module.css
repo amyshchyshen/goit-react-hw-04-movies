@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+}
+
+.innerWrapper {
+  padding-left: 15px;
+}
+
+.movieImg {
+  width: 250px;
+  height: auto;
+}
+
+.userScorePercentage {
+  font-weight: 600;
+}
+
+.genresList {
+  padding: 0;
+  list-style: none;
+}

@@ -1,0 +1,14 @@
+.pagesList {
+  display: flex;
+  margin: 0;
+  padding: 15px 30px;
+  list-style: none;
+  background-color: #6766a7;
+}
+
+.page {
+  margin-right: 15px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

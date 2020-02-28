@@ -1,0 +1,30 @@
+.searchInput {
+  width: 350px;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #494949;
+}
+
+.searchInput::placeholder {
+  font-style: italic;
+  color: rgb(122, 122, 122);
+}
+
+.searchBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #f5963d;
+  border: 1px solid #f5963d;
+  cursor: pointer;
+}
+
+.searchBtn:active {
+  background-color: #f1b67f;
+}
+
+.searchInput,
+.searchBtn {
+  border-radius: 3px;
+}

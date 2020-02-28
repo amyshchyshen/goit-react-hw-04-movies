@@ -1,0 +1,23 @@
+.actorsList {
+  margin: 0;
+  padding: 15px 30px;
+  list-style: none;
+}
+
+.actorsListItem {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.actorPicture {
+  width: 150px;
+  height: auto;
+}
+
+.actorInfo {
+  padding: 0 15px;
+}
+
+.noCast {
+  padding-left: 30px;
+}
