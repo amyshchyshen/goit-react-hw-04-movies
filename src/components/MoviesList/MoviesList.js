@@ -27,7 +27,12 @@ const MoviesList = ({ movies, match, location }) => {
 };
 
 MoviesList.propTypes = {
-  movies: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+    }),
+  ).isRequired,
   match: PropTypes.shape({
     path: PropTypes.string.isRequired,
   }).isRequired,

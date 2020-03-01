@@ -19,9 +19,6 @@ class SearchBar extends Component {
     e.preventDefault();
     const { onSubmit } = this.props;
     const { value } = this.state;
-
-    if (value.trim() === '') return;
-
     onSubmit(value);
     this.setState({ value: '' });
   };
